@@ -1,0 +1,24 @@
+#app4 {
+    width: 50vw;
+    height: 50vh;
+    border: 1px solid red;
+}
+#app4 .box{
+    margin-top: 10vh;
+    margin-left: 10vw;
+    width: 200px;
+    height: 200px;
+    background-color: #cccccc;
+
+}
+@keyframes change {
+    0%{
+        background-color: #cccccc;
+    }
+    100%{
+        background-color: #000000;
+    }
+}
+.enter{
+    animation: change infinite 1s alternate;
+}

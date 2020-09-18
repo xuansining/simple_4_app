@@ -1,0 +1,8 @@
+#app1{
+    width: 50vw;
+    height: 50vh;
+    border: 1px solid red;
+}
+#app1 .buttonList>button{
+    width: 30px;
+}
